@@ -9,11 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.maisvida</groupId>
-	<artifactId>maisvida-configuration</artifactId>
+	<artifactId>maisvida-configuration-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>maisvida-configuration</name>
-	<description>Configurations for Spring Boot</description>
+	<name>maisvida-configuration-server</name>
+	<description>Configuration Server for Spring Boot</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -54,6 +54,16 @@
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 	</dependencies>
 

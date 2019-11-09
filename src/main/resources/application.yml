@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/rodolfocruzbsb/maisvida-configuratios.git
+          uri: https://github.com/rodolfocruzbsb/maisvida-configurations.git
           skipSslValidation: true
           username: ${git.user}
           password: ${git.password}
