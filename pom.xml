@@ -11,7 +11,7 @@
 	<groupId>br.com.maisvida</groupId>
 	<artifactId>maisvida-configuration-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>maisvida-configuration-server</name>
 	<description>Configuration Server for Spring Boot</description>
 
